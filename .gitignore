@@ -25,5 +25,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-# editor configs
+# misc configs
 .vscode
+.nvmrc

@@ -1,21 +1,23 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "incremental": true,
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react",
-    "module": "amd",
-    "target": "es6",
-    "strict": true,
     "moduleResolution": "node",
-    "importHelpers": true,
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "typeRoots": [
-      "./node_modules/@craftdocs/craft-extension-api"
-    ]
+    "module": "amd",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "typeRoots": ["./node_modules/@craftdocs/craft-extension-api"]
   },
   "exclude": ["node_modules"]
 }
