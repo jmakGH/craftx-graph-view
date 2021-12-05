@@ -1,0 +1,10 @@
+{
+  "id": "do.craft.graph-view",
+  "name": "CraftX Graph View",
+  "fileName": "craftx-graph-view",
+  "author": "Justin Mak",
+  "author-email": "j.mak.dev@gmail.com",
+  "description": "Visualize your Craft docs as a graph",
+  "api": "0.1.0",
+  "main": "index.html"
+}
